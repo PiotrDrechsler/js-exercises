@@ -1,0 +1,33 @@
+{
+  "name": "js-exercises",
+  "version": "2.0.0",
+  "description": "**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**",
+  "homepage": "https://PiotrDrechsler.github.io/js-exercises/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js-exercises/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrDrechsler/js-exercises"
+  },
+  "keywords": [],
+  "author": "Piotr Drechsler <pdrech@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrDrechsler/js-exercises/issues"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.10.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
